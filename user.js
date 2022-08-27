@@ -8,7 +8,7 @@ function displayuser(data) {
     const ul = document.getElementById('user-list');
     for (user of data) {
         const li = document.createElement("li");
-        li.innerText = user.name;
+        li.innerText = user.email;
 
         ul.append(li);
     }
